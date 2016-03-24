@@ -1,12 +1,11 @@
 {
   "name": "react-webpack-es6-boilerplate",
-  "description": "A starter project for React apps",
+  "description": "Starter files for building modern React apps",
   "version": "1.0.0",
   "author": "James Morgan",
   "license": "MIT",
   "keywords": [
     "react",
-    "redux",
     "es6",
     "hmr",
     "hot",
