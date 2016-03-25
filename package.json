@@ -28,7 +28,8 @@
     "build": "SET NODE_ENV=production& NODE_ENV=production& webpack -p --config ./webpack.config.prod.js --progress",
     "lint": "eslint config src/js/**/*.js",
     "jscs": "jscs src/js/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && surge -p build -d react-webpack-es6-boilerplate.surge.sh"
   },
   "devDependencies": {
     "babel-core": "6.5.2",
